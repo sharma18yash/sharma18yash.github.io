@@ -1,0 +1,22 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+h1{
+  color: white;
+  font-family: sans-serif;
+  margin-top: 300px;
+  margin-left: 120px;
+}
+.btn-primary{
+  background-color: orange;
+  border-radius: 20px;
+  margin-left: 605px;
+  margin-top: 180px;
+}
+.btn-primary:hover{
+  background-color: orange;
+  animation-duration: 1;
+  transform: scale(1.1);
+}
