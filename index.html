@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio website</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="cont">
+    <!-- Make your website here -->
+    <div class="topnav">
+        <p class="nav-dis">scsc</p>
+    
+    <div class="topnav topnav-right" id="navbar">
+        <a href="#home">Home</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>  
+    </div>
+    <div class="image">
+        <img src="img/profile_image.jpeg" alt="Profile image" width="300" height="300" style="float: left;" id="home">
+    </div>
+        <div>
+            <h1 class="right-align">Yash Vardhan Sharma</h1>
+            <div class="small-intro"> Hello, my name is Yash
+                <br> I code and geek out about tech<br> 
+                If you are a recruiter check out my <a href="#project">Projects</a></div>    
+        </div>
+
+
+        <div>
+            <div class="terminal-header">
+                <div class="title">yash.exe</div>
+                <div class="right-side-buttons">
+                    <div class="fas fa-window-minimize"></div>
+                    <div class="fas fa-window-restore"></div>
+                    <div class="fas fa-window-close"></div>
+                </div>
+            </div>
+            <div class="terminal-window">
+                <!-- <div class="statement" id="top"> -->
+                    <!-- <p class="input">yash.skills</p>
+                    <p class="return">[c++, python, html, css, aws, git, linux]</p>
+                    
+                </div> -->
+                <div class="statement">
+                    <br>
+                    <p class="input">yash.skills</p>
+                    <p class="return">[c++, python, html, css, aws, git, linux]</p>
+                    
+                </div>
+                <div class="statement">
+                    <p class="input">yash.resume</p>
+                    <p class="return"><a href="./yash-resume.pdf" target="_blank" rel="noopener noreferrer">resume.pdf</a></p>
+                    <p class="return"><a href="https://drive.google.com/file/d/1F8FEvtUDIoj5czWCd8O_05N25fQHLM95/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume.googledrive</a></p>
+                    
+                </div>
+                <div class="statement">
+                    <p class="input">yash.contact</p>
+                    <p class="return"><a
+                            href="mailto:yash.sharma@students.iiit.ac.in" target="_blank" rel="noopener noreferrer">yash.sharma@students.iiit.ac.in</a>
+                    </p>
+                </div>
+                <!-- <div class="statement">
+                    <p class="input">yash.codingprofile</p>
+                    <p class="return"><a
+                            href="https://www.codechef.com/users/sharma18yash" target="_blank" rel="noopener noreferrer">codechef</a> - rating 1707
+                    </p>
+                </div> -->
+                <div class="statement">
+                    <p class="input">yash.education</p>
+                    <p class="return">M.Tech in CSE, IIIT Hyderabad</p>
+                    <p class="return">B.Tech. in cse, JECRC</p>
+                    
+                </div>
+                <div class="statement">
+                    <p class="input">yash.location</p>
+                    <p class="return">jaipur, india</p>
+                    
+                </div>
+                <div class="statement">
+                    <p class="input">yash.interests</p>
+                    <p class="return">[video games, processors, music, building PCs, mechanical keebs]
+                    </p>
+                </div>
+                <div class="statement" id="bottom">
+                    <p class="input"><span>&nbsp;</span></p>
+                </div>
+            </div>
+        </div>    
+        <div class="section-title" id="project">
+            <h2 style="text-align: center;">> Projects</h2>
+            <p class="quote">"It’s not a bug – it’s an undocumented feature." - Anonymous</p>
+
+            <div class="project-card">
+                <h3 class="project-title">EasyDB</h3>
+                <p class="project-description">
+                    Created a Natural Language Interface to Database System using Python’s ”Spacy” module for Natural Language Processing to
+                    convert English text to SQL queries and fetch results from MySQL database 
+                    deployed on Google Cloud Platform, and integrated everything through a 
+                    flask based chatbot.
+                </p>
+                <div class="project-skills">
+                    <span class="project-skill">Natural Language Processing</span>
+                    <span class="project-skill">DBMS</span>
+                    <span class="project-skill">GCP</span>
+                    <span class="project-skill">flask</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/sharma18yash/chatBot-sql" class="link button" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> Source</a>
+                </div>
+                
+            </div>
+
+            <div class="project-card">
+                <h3 class="project-title">My Cart</h3>
+                <p class="project-description">
+                    An E-commerce website made using Python's Django web framework, HTML, CSS and Bootstrap, which provide functionalities like search,
+                    wishlist, Add to cart, etc. Made database schema using PgAdmin 4 database to store different types of products listed on the website.
+                </p>
+                <div class="project-skills">
+                    <span class="project-skill">HTML</span>
+                    <span class="project-skill">CSS3</span>
+                    <span class="project-skill">Python</span>
+                    <span class="project-skill">Django</span>
+                    <span class="project-skill">DBMS</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/sharma18yash/mycart" class="link button" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> Source</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3 class="project-title">Portfolio Website</h3>
+                <p class="project-description">It's this site you are currently visiting! This is my developer 
+                    portfolio. It is a responsive website with a little bit of text animation.
+                    This project was created for HTML, CSS, and JS learning purposes.
+                </p>
+                <div class="project-skills">
+                    <span class="project-skill">HTML5</span>
+                    <span class="project-skill">CSS3</span>
+                    <span class="project-skill">JavaScript</span>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3 class="project-title">Green Corridor</h3>
+                <p class="project-description">
+                    Green Corridor got selected in the prelims of SIH-2020. It aims at providing a traffic-free passage to emergency vehicles. It makes use
+of multiple Google APIs like Places and Maps to save the real-time location of the emergency vehicle and send it to a real-time
+Firebase server. The Firebase server is connected to a web-based application. It also makes use of technologies like AI and Machine
+Learning to track traffic in real-time.
+                <div class="project-skills">
+                    <span class="project-skill">Python</span>
+                    <span class="project-skill">Machine Learning</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/sharma18yash/my-application3" class="link button" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i> Source
+                    </a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <h3 class="project-title">Solar Share</h3>
+                <p class="project-description">
+                    The project Solar Share aims at connecting home owners with solar panels and E-vehicle owners’ in order to develop Electric Vehicle
+                    charging infrastructure. This is done by the use of NEO-6M GPS module and SIM 900A, for GPS location and internet connectively
+                    respectively, both connected to a Node MCU which is capable of computing as well as sending data to an Amazon’s cloud EC-2
+                    instance.
+                    </p>
+                <div class="project-skills">
+                    <span class="project-skill">Python</span>
+                    <span class="project-skill">Microcontroller</span>
+                    <span class="project-skill">AWS</span>
+                </div>
+            </div>
+           
+            </div>
+            
+        </div>
+        <div class="section-title" id="contact">
+            <h2 style="text-align: center;" >> Say hello </h2>
+            
+            <p style="text-align: center;">Here are all the places you can find or contact me on the internet.</p>
+            <div class="social-links">
+                <a
+                    href="https://www.linkedin.com/in/yash-sharma112/" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/linkedin.svg" class="socials button" alt="Gmail">
+                </a>
+                <a href="mailto:yash.sharma@students.iiit.ac.in" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/gmail.svg" class="socials button" alt="LinkedIn Profile">
+                </a>
+
+
+                <a href="https://github.com/sharma18yash" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/github.svg" class="socials button" alt="LinkedIn Profile">
+                </a>
+            </div>
+            <h5 style="text-align-last: center;">Date/Time: <span id="datetime" class="centre"></span></h5>
+        </div>
+
+</body>
+<script>
+    window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleString();
+</script>
+</html>
